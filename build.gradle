@@ -36,6 +36,6 @@ task cucumber(type: JavaExec) {
     systemProperty('envcu', System.properties['envcu'] ?: 'dev')
     main = "io.cucumber.core.cli.Main"
     classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
-    args = ['--plugin', 'pretty','--plugin','html:cucumber/report.html','--plugin', 'json:cucumber/report.json','--glue', 'com.cucumber', 'src/test/resources/com/cucumber']
+    args = ['--plugin', 'pretty','--plugin','html:cucumber/report.html','--plugin', 'json:cucumber/report.json','--glue', 'testSuite.ticktick', 'src/test/resources/com/cucumber']
 }
 

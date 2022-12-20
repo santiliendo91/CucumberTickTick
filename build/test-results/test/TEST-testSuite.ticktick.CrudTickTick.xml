@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testSuite.ticktick.CrudTickTick" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-12-20T16:19:13" hostname="netdata-VirtualBox" time="57.1">
+  <properties/>
+  <testcase name="CrudTickTickApp()" classname="testSuite.ticktick.CrudTickTick" time="57.1"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 13630
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1671553156,897][WARNING]: This version of ChromeDriver has not been tested with Chrome version 108.
+Dec 20, 2022 12:19:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: 106
+]]></system-err>
+</testsuite>
